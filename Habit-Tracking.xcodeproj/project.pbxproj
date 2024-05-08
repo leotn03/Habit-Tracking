@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA2A80872B5C75A300C93576 /* Habit_trackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2A80862B5C75A300C93576 /* Habit_trackingApp.swift */; };
+		EA2A80872B5C75A300C93576 /* HabitTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2A80862B5C75A300C93576 /* HabitTrackingApp.swift */; };
 		EA2A80892B5C75A300C93576 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2A80882B5C75A300C93576 /* ContentView.swift */; };
 		EA2A808B2B5C75A500C93576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2A808A2B5C75A500C93576 /* Assets.xcassets */; };
 		EA2A808E2B5C75A500C93576 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2A808D2B5C75A500C93576 /* Preview Assets.xcassets */; };
+		EA2A80952B5C797E00C93576 /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2A80942B5C797E00C93576 /* AddHabit.swift */; };
+		EA2A80972B5DF23400C93576 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2A80962B5DF23400C93576 /* HabitView.swift */; };
+		EA2A80992B5DF3D200C93576 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2A80982B5DF3D200C93576 /* Activity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA2A80832B5C75A300C93576 /* Habit-tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit-tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA2A80862B5C75A300C93576 /* Habit_trackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_trackingApp.swift; sourceTree = "<group>"; };
+		EA2A80832B5C75A300C93576 /* Habit-Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit-Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2A80862B5C75A300C93576 /* HabitTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackingApp.swift; sourceTree = "<group>"; };
 		EA2A80882B5C75A300C93576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA2A808A2B5C75A500C93576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA2A808D2B5C75A500C93576 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA2A80942B5C797E00C93576 /* AddHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabit.swift; sourceTree = "<group>"; };
+		EA2A80962B5DF23400C93576 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
+		EA2A80982B5DF3D200C93576 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +41,7 @@
 		EA2A807A2B5C75A300C93576 = {
 			isa = PBXGroup;
 			children = (
-				EA2A80852B5C75A300C93576 /* Habit-tracking */,
+				EA2A80852B5C75A300C93576 /* Habit-Tracking */,
 				EA2A80842B5C75A300C93576 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +49,23 @@
 		EA2A80842B5C75A300C93576 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA2A80832B5C75A300C93576 /* Habit-tracking.app */,
+				EA2A80832B5C75A300C93576 /* Habit-Tracking.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA2A80852B5C75A300C93576 /* Habit-tracking */ = {
+		EA2A80852B5C75A300C93576 /* Habit-Tracking */ = {
 			isa = PBXGroup;
 			children = (
-				EA2A80862B5C75A300C93576 /* Habit_trackingApp.swift */,
 				EA2A80882B5C75A300C93576 /* ContentView.swift */,
+				EA2A80982B5DF3D200C93576 /* Activity.swift */,
+				EA2A80942B5C797E00C93576 /* AddHabit.swift */,
+				EA2A80862B5C75A300C93576 /* HabitTrackingApp.swift */,
+				EA2A80962B5DF23400C93576 /* HabitView.swift */,
 				EA2A808A2B5C75A500C93576 /* Assets.xcassets */,
 				EA2A808C2B5C75A500C93576 /* Preview Content */,
 			);
-			path = "Habit-tracking";
+			path = "Habit-Tracking";
 			sourceTree = "<group>";
 		};
 		EA2A808C2B5C75A500C93576 /* Preview Content */ = {
@@ -70,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA2A80822B5C75A300C93576 /* Habit-tracking */ = {
+		EA2A80822B5C75A300C93576 /* Habit-Tracking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA2A80912B5C75A500C93576 /* Build configuration list for PBXNativeTarget "Habit-tracking" */;
+			buildConfigurationList = EA2A80912B5C75A500C93576 /* Build configuration list for PBXNativeTarget "Habit-Tracking" */;
 			buildPhases = (
 				EA2A807F2B5C75A300C93576 /* Sources */,
 				EA2A80802B5C75A300C93576 /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "Habit-tracking";
+			name = "Habit-Tracking";
 			productName = "Habit-tracking";
-			productReference = EA2A80832B5C75A300C93576 /* Habit-tracking.app */;
+			productReference = EA2A80832B5C75A300C93576 /* Habit-Tracking.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA2A807E2B5C75A300C93576 /* Build configuration list for PBXProject "Habit-tracking" */;
+			buildConfigurationList = EA2A807E2B5C75A300C93576 /* Build configuration list for PBXProject "Habit-Tracking" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA2A80822B5C75A300C93576 /* Habit-tracking */,
+				EA2A80822B5C75A300C93576 /* Habit-Tracking */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2A80992B5DF3D200C93576 /* Activity.swift in Sources */,
 				EA2A80892B5C75A300C93576 /* ContentView.swift in Sources */,
-				EA2A80872B5C75A300C93576 /* Habit_trackingApp.swift in Sources */,
+				EA2A80972B5DF23400C93576 /* HabitView.swift in Sources */,
+				EA2A80872B5C75A300C93576 /* HabitTrackingApp.swift in Sources */,
+				EA2A80952B5C797E00C93576 /* AddHabit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA2A807E2B5C75A300C93576 /* Build configuration list for PBXProject "Habit-tracking" */ = {
+		EA2A807E2B5C75A300C93576 /* Build configuration list for PBXProject "Habit-Tracking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA2A808F2B5C75A500C93576 /* Debug */,
@@ -334,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA2A80912B5C75A500C93576 /* Build configuration list for PBXNativeTarget "Habit-tracking" */ = {
+		EA2A80912B5C75A500C93576 /* Build configuration list for PBXNativeTarget "Habit-Tracking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA2A80922B5C75A500C93576 /* Debug */,
